@@ -1,0 +1,24 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moises-H29/Festival-de-Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Moises Hernandez <ironmoyher@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moises-H29/Festival-de-Musica/issues"
+  },
+  "homepage": "https://github.com/Moises-H29/Festival-de-Musica#readme"
+}
