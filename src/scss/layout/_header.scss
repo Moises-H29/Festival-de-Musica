@@ -8,6 +8,18 @@
         color: purple;
     }
 
+    @include m.tablet() {
+        color: orangered;
+    }
+
+    @include m.desktop() {
+        color: blue;
+    }
+
+    @include m.desktopXL() {
+        color: violet;
+    }
+
     .contenido-header {
         padding: 2rem;
         display: flex;
