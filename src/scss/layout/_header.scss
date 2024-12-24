@@ -6,6 +6,7 @@
 
     @include m.telefono() {
         color: purple;
+        align-items: center;
     }
 
     @include m.tablet() {
