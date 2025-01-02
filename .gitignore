@@ -225,3 +225,4 @@ dist
 *.webm
 
 # End of https://www.toptal.com/developers/gitignore/api/video,images,node
+.codegpt
