@@ -15,9 +15,8 @@
 }
 
 .pase {
-    
     &:hover {
-        transition: transform ;
+        transition: transform .3s ease-in-out;
         transform: scale(1.1);
     }
     &-nombre {
@@ -67,6 +66,7 @@
             border-radius: 1rem;
             cursor: pointer;
             &:hover {
+                transition: background-color .5s ease-in-out;
                 background-color: darken( v.$morado , 20% );
             }
         }
