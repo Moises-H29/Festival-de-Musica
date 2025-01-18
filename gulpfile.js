@@ -1,3 +1,5 @@
+import path from 'path'
+import fs from 'fs'
 import { src, dest, watch, series } from 'gulp'
 import * as dartSass from 'sass'
 import gulpSass from 'gulp-sass'
@@ -5,6 +7,7 @@ import gulpSass from 'gulp-sass'
 const sass = gulpSass(dartSass);
 
 import terser from 'gulp-terser';
+import sharp from 'sharp';
 
 export function js( done ) {
     src('src/js/app.js')
@@ -56,4 +59,4 @@ export function dev() {
     watch('src/js/**/*.js', js)  
 }
 
-export default series( js, css, dev );
+export default series( crop, js, css, dev );
